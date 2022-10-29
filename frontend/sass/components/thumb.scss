@@ -1,0 +1,21 @@
+.thumb {
+  position: absolute;
+  left: 68.55%;
+  right: 4.03%;
+  top: 53.8%;
+  bottom: 5.19%;
+  background-color: $color-primary;
+  &__title {
+    left: 5.88%;
+    right: 5.88%;
+    top: 78.82%;
+    bottom: 5.88%;
+
+    font-family: $font-primary;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+    color: $color-secondary;
+  }
+}
