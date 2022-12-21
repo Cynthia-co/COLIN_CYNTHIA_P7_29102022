@@ -1,0 +1,24 @@
+@import '../utils/variables';
+@import '../utils/extensions';
+
+.logement-header{
+  display: flex;
+  position: inherit;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  color: $color-primary;
+  &__left{
+    left: 0;
+    padding-left: 2%;
+    flex-direction: column;
+    
+  }
+  &__right{
+    right: 0;
+    padding-right: 2%;
+    flex-direction: column
+  }
+}
+
+

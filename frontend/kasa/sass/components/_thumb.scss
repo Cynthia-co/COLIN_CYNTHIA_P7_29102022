@@ -1,0 +1,32 @@
+@import "../utils/variables";
+.thumb-card{
+  width: 250px;
+  height: 250px; 
+  text-decoration: none;
+  color: $color-secondary;
+  background: linear-gradient(180deg, $color-primary 40%, rgb(49, 48, 48) 200%);
+    
+  margin: 26px;
+border-radius: 10px;
+}
+.thumb {
+  border-radius: 10px;
+  &__title {
+    width: 250px;
+    height: 50px;
+    padding: 2px;
+    @extend %typo;
+    line-height: 26px;
+    align-content: left;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  &__img {
+    width: 250px;
+    height: 200px;
+  object-fit: cover;
+  fill: $color-primary;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  }
+}

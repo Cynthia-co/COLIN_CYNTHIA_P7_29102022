@@ -1,0 +1,17 @@
+@import '../utils/variables';
+
+.gallery {
+   position: relative;
+   display: flex;
+   border-radius: 10px;
+   background-color: $color-background-gallery;
+   margin: 5%;
+   margin-top: 2%;
+   padding: 20px;
+ 
+   &__thumbs {
+      display: flex;
+      flex-flow: row wrap;
+   }
+
+}

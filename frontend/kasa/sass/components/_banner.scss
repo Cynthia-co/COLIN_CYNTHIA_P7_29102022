@@ -1,0 +1,26 @@
+@import '../utils/extensions';
+.banner {
+  position: relative;
+  
+  left: 5%;
+  
+border-radius: 25px;
+margin-bottom: 10px;
+  
+  &__img {
+    filter: brightness(60%);
+  height: 207px;
+    z-index: 0;    
+    border-radius: 25px;
+  }
+  &__title {
+    position: absolute;
+    left: 25%;
+   top: 32%;
+    z-index: 2;
+    @extend %typo;
+    font-size: 48px;
+    
+    color: white;
+  }
+}

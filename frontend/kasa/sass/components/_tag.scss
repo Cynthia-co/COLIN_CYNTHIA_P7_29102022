@@ -1,0 +1,25 @@
+
+@import '../utils/variables';
+@import '../utils/extensions';
+
+.tag-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.tag {
+  display: flex;
+  width:max-content;
+  height: min-content;
+  margin: 5px;
+  background-color: $color-primary;
+  border-radius: 10px;
+  padding:2px;
+  &__content {
+    @extend %typo;
+    font-size: 10px;
+    color: $color-secondary;
+    margin: 0;
+  }
+
+}

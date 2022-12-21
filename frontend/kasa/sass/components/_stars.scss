@@ -1,0 +1,15 @@
+.rate {
+  position: absolute;
+  width: 196px;
+  height: 36px;
+  left: 1144px;
+  top: 652px;
+
+  &__star {
+    position: absolute;
+    left: 8.33%;
+    right: 8.33%;
+    top: 8.33%;
+    bottom: 8.33%;
+  }
+}

@@ -1,0 +1,46 @@
+@import '../utils/variables';
+@import '../utils/extensions';
+
+.collapse {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: center;
+    margin-bottom: 20px;
+    height: auto;
+        &__header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-radius: 10px;
+       color: $color-secondary;
+        background-color: $color-primary;
+        z-index: 0;
+        @extend %typo;
+    }
+    &__title{
+        padding: 2%;
+
+    }
+    &__content {
+      padding: 2%;
+      margin-top: 0;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      text-align: left;
+      list-style: none;
+      color: $color-primary;
+      background: $color-background-gallery;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      @extend %typo;
+    }
+    &__arrow{
+      padding: 2%;
+      text-align:right;
+      z-index: 100;
+      width: 14px;
+      height: 23px;
+    }
+  }

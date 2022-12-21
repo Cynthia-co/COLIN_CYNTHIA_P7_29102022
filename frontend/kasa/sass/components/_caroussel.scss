@@ -1,0 +1,51 @@
+.caroussel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1240px;
+  height: 415px;
+  left: 100px;
+  top: 128px;
+  opacity: 0;
+  transition-duration: 1s ease;
+  &__image {
+    width: 1240px;
+  height: 415px;
+  left: 100px;
+  top: 128px;
+  }
+  &__forward {
+    position: absolute;
+    left: 92.26%;
+    top: 50%;
+    background: $color-secondary;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  &__backward {
+    position: absolute;
+    left: 0%;
+    right: 92.26%;
+    top: 35.74%;
+    bottom: 35.44%;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  &__number {
+    @extend %typo;
+    left: 48.95%;
+    right: 49.11%;
+    top: 86.19%;
+    bottom: 6.01%;
+    color: $color-secondary;
+  }
+}
+
+.caroussel.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}

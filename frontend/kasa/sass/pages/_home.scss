@@ -1,0 +1,11 @@
+@import '../utils/variables';
+
+.home{
+    display: flex;
+    flex-direction: column;
+}
+
+.accueil{
+    text-decoration: underline;
+    color: $color-primary;
+}

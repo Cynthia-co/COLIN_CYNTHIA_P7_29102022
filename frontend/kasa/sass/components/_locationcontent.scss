@@ -1,0 +1,12 @@
+@import '../utils/variables';
+
+.logement-page{
+  position: relative;
+  display:flex;
+  flex-direction: column;
+}
+
+.logement-collapse{
+  display: flex;
+  flex-direction: row;
+}
