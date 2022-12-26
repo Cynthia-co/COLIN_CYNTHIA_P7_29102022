@@ -1,48 +1,42 @@
-.caroussel {
+.carroussel {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 1240px;
-  height: 415px;
-  left: 100px;
-  top: 128px;
-  opacity: 0;
-  transition-duration: 1s ease;
-  &__image {
-    width: 1240px;
-  height: 415px;
-  left: 100px;
-  top: 128px;
+  height: 415px;  
+}
+  .carroussel-img {
+    display: flex;
+    min-width: 1340px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 25px;
   }
-  &__forward {
+  .carroussel-forward {
     position: absolute;
-    left: 92.26%;
-    top: 50%;
-    background: $color-secondary;
-    z-index: 10;
+    right: 0%;
+    margin-top: 11%;
+    margin-right: 1%;
     cursor: pointer;
     user-select: none;
   }
-  &__backward {
+  .carroussel-backward {
     position: absolute;
     left: 0%;
-    right: 92.26%;
-    top: 35.74%;
-    bottom: 35.44%;
-    z-index: 10;
+    margin-top: 11%;
+    margin-left: 1%;
     cursor: pointer;
     user-select: none;
   }
-  &__number {
+  .carrousel-number {
     @extend %typo;
-    left: 48.95%;
-    right: 49.11%;
-    top: 86.19%;
-    bottom: 6.01%;
+    position: absolute;
+    display: flex;
+    bottom: 11%;
+    z-index: 10;
+    align-items: flex-end;
     color: $color-secondary;
   }
-}
 
 .caroussel.active {
   opacity: 1;

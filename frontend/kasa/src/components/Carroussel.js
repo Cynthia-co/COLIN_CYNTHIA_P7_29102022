@@ -3,7 +3,6 @@ import backward from "../img/backward.svg";
 import forward from "../img/forward.svg";
 
 const Carroussel = ({ slides }) => {
- 
   const [current, setCurrent] = useState(0);
   const number = slides.length;
 
@@ -17,14 +16,9 @@ const Carroussel = ({ slides }) => {
   if (!Array.isArray(slides) || slides.length <= 0) {
     return null;
   }
+
   return (
     <div className="carroussel">
-      <img
-        src={backward}
-        className="carroussel__backward"
-        onClick={prevSlide}
-        alt="backward"
-      />
       {slides.map((slide, index) => {
         return (
           <div
@@ -32,22 +26,29 @@ const Carroussel = ({ slides }) => {
             key={index}
           >
             {index === current && (
-              <img
-                src={slide}
-                className="carroussel__img"
-                alt="lodging"
-              />
+              <img src={slide} className="carroussel-img" alt="lodging" />
             )}
           </div>
-        )
+        );
       })}
-      
+      <div className="carroussel-number">
+        {current + 1}/{slides.length}
+      </div>
+      { slides.length > 1 &&
+      <div>
+      <img
+        src={backward}
+        className="carroussel-backward"
+        onClick={prevSlide}
+        alt="backward"
+      />
       <img
         src={forward}
-        className="carroussel__forward"
+        className="carroussel-forward"
         alt="forward"
         onClick={nextSlide}
       />
+      </div>}
     </div>
   );
 };

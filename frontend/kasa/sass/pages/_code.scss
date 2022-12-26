@@ -1,6 +1,5 @@
 .error {
  display: block;
-  
   color: $color-primary;
   font-family: "Montserrat";
   font-style: normal;
@@ -28,5 +27,6 @@
   margin-right: auto;
     color: $color-primary;
   @extend %typo;
+  font-size: 36px;
 }
 }

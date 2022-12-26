@@ -23,7 +23,7 @@ const Gallery = () => {
             </Link>
           );
         })}
-        ;
+        
       </div>
     </div>
   );

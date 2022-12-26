@@ -8,6 +8,7 @@
   justify-content: space-between;
   width: 100%;
   color: $color-primary;
+  @extend %typo;
   &__left{
     left: 0;
     padding-left: 2%;
