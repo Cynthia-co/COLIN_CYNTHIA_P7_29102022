@@ -5,8 +5,8 @@ import { NavLink } from 'react-router-dom';
 const Nav = () => {
     return (
         <div className="nav">
-            <NavLink to='/' className='nav__item accueil'>Accueil</NavLink>
-            <NavLink to='/about' className='nav__item aboutLink'>A propos</NavLink>
+            <NavLink to='/'  className='nav__item'>Accueil</NavLink>
+            <NavLink to='/about'  className='nav__item' >A propos</NavLink>
         </div>
     );
 };

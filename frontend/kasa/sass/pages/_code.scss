@@ -1,32 +1,41 @@
+@import '../utils/variables';
+@import '../utils/extensions';
+
 .error {
- display: block;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
   color: $color-primary;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
+  
+  margin: 2%;
+  @extend %typo;
   font-size: 288px;
-  line-height: 142.6%;
+ 
 &__code {
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  margin: 150px;
+  margin: 0;
+  flex-direction: column;
+  margin-bottom: 5%;
+  
+  align-self: center;
+  
 }
 &__com {
-  margin-left: auto;
-  margin-right: auto;
-   display: flex;
-  align-self: center;
+  margin-bottom: 9%;
   color: $color-primary;
   @extend %typo;
   font-size: 36px;
+  
+  align-self: center;
 }
 
 &__link {
-  margin-left: auto;
-  margin-right: auto;
+ 
     color: $color-primary;
   @extend %typo;
   font-size: 36px;
+  
+  align-self: center;
 }
 }
+
+

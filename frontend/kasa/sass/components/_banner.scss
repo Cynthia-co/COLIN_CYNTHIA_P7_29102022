@@ -1,15 +1,14 @@
 @import '../utils/extensions';
 .banner {
   position: relative;
-  
-  left: 5%;
-  
+ 
 border-radius: 25px;
 margin-bottom: 10px;
-  
+left: 6%;
   &__img {
+   
     filter: brightness(60%);
-  height: 207px;
+  height: 225px;
     z-index: 0;    
     border-radius: 25px;
   }

@@ -1,5 +1,8 @@
 @import '../utils/variables';
 
+html, body{
+    overflow-x: hidden;
+}
 .home{
     display: flex;
     flex-direction: column;

@@ -10,6 +10,7 @@
 }
   .carroussel-img {
     display: flex;
+    margin-left: 3%;
     min-width: 1340px;
   height: 380px;
   object-fit: cover;
@@ -17,7 +18,7 @@
   }
   .carroussel-forward {
     position: absolute;
-    right: 0%;
+    right: -6%;
     margin-top: 11%;
     margin-right: 1%;
     cursor: pointer;
