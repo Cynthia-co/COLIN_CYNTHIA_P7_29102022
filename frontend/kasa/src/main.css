@@ -20,13 +20,13 @@
 }
 .banner__img {
   filter: brightness(60%);
-  height: 225px;
+  height: 194px;
   z-index: 0;
   border-radius: 25px;
 }
 .banner__title {
   position: absolute;
-  left: 25%;
+  left: 20%;
   top: 32%;
   z-index: 2;
   font-size: 48px;
@@ -146,7 +146,7 @@
   border-radius: 10px;
   background-color: #F6F6F6;
   margin: 6%;
-  margin-top: 2%;
+  margin-top: 0%;
   padding: 20px;
 }
 .gallery__thumbs {
@@ -231,6 +231,7 @@
 .title {
   font-size: 36px;
   margin-bottom: 2%;
+  margin-top: 4%;
 }
 
 .rate {
@@ -278,31 +279,29 @@
 }
 
 .thumb-card {
-  width: 340px;
-  height: 340px;
+  width: 310px;
+  height: 310px;
   text-decoration: none;
   color: #fff;
   background: linear-gradient(180deg, #FF6060 40%, rgb(49, 48, 48) 200%);
-  margin: 26px;
+  margin: 18px;
   border-radius: 10px;
 }
 
 .thumb {
   border-radius: 10px;
+  height: 100%;
 }
 .thumb__title {
   width: 100%;
-  height: 50px;
   padding: 4px;
-  margin-left: 12px;
-  line-height: 26px;
-  align-content: left;
+  margin-left: 4px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 .thumb__img {
   width: 100%;
-  height: 240px;
+  height: 80%;
   object-fit: cover;
   fill: #FF6060;
   border-top-left-radius: 10px;

@@ -1,25 +1,22 @@
-@import '../utils/extensions';
+@import "../utils/extensions";
 .banner {
   position: relative;
- 
-border-radius: 25px;
-margin-bottom: 10px;
-left: 6%;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  left: 6%;
   &__img {
-   
     filter: brightness(60%);
-  height: 225px;
-    z-index: 0;    
+    height: 194px;
+    z-index: 0;
     border-radius: 25px;
   }
   &__title {
     position: absolute;
-    left: 25%;
-   top: 32%;
+    left: 20%;
+    top: 32%;
     z-index: 2;
     @extend %typo;
     font-size: 48px;
-    
     color: white;
   }
 }

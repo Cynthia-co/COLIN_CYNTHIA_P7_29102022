@@ -9,7 +9,7 @@ const Home = () => {
         <div className="home">
             <Header className="home__header"/>
             <Banner/>
-            <Gallery/>
+            <Gallery />
             <Footer/>
         </div>
     );

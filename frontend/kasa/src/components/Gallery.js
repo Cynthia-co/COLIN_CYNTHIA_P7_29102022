@@ -11,6 +11,7 @@ const Gallery = () => {
       {/* on mappe chaque logement dans une card qui renverra vers la page de la location */}
       <div className="gallery__thumbs">
         {logements.map((logement) => {
+         
           return (
             <Link to={`./logements/${logement.id}`} className='thumb-card' >
             <Thumb
