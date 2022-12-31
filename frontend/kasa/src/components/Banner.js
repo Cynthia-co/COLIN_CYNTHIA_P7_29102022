@@ -1,11 +1,9 @@
 import React from 'react';
-import homebanner from '../img/homebanner.svg';
 
-const Banner = () => {
+const Banner = ({image}) => {
     return (
         <div className="banner">
-            <img className="banner__img" src={homebanner}  alt='banner'/>
-            <span className="banner__title">Chez vous, partout et ailleurs</span>
+            <img className="banner__img" src={image}  alt='banner'/>
         </div>
     );
 };

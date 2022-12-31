@@ -1,16 +1,14 @@
 import React from 'react';
-import Header from '../components/Header';
 import Banner from '../components/Banner';
-import Footer from '../components/Footer';
 import Gallery from '../components/Gallery';
+import homebanner from '../img/homebanner.svg';
 
 const Home = () => {
     return (
         <div className="home">
-            <Header className="home__header"/>
-            <Banner/>
+            <Banner  image={homebanner}/>
+            <span className="banner__title">Chez vous, partout et ailleurs</span>
             <Gallery />
-            <Footer/>
         </div>
     );
 };
