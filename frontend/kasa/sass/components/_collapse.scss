@@ -25,17 +25,21 @@
 
     }
     &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       padding: 2%;
       margin-top: 0;
       padding-top: 2%;
       padding-bottom: 2%;
-      text-align: left;
+     
       list-style: none;
       color: $color-primary;
       background: $color-background-gallery;
       border-bottom-left-radius: 10px;
       border-bottom-right-radius: 10px;
       @extend %typo;
+      line-height: 169.6%;
     }
     &__arrow{
       padding-right: 2%;

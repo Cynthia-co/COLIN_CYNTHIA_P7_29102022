@@ -8,10 +8,13 @@
    margin: 6%;
    margin-top: 0%;
    padding: 20px;
- 
+
    &__thumbs {
       display: flex;
       flex-flow: row wrap;
+      @include tablet{
+         flex-direction: column;
+      }
    }
 
 }

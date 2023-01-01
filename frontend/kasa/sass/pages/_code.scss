@@ -1,41 +1,33 @@
-@import '../utils/variables';
-@import '../utils/extensions';
+@import "../utils/variables";
+@import "../utils/extensions";
 
 .error {
- display: flex;
- flex-direction: column;
- justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   color: $color-primary;
-  
   margin: 2%;
   @extend %typo;
   font-size: 288px;
- 
-&__code {
-  margin: 0;
-  flex-direction: column;
-  margin-bottom: 5%;
-  
-  align-self: center;
-  
-}
-&__com {
-  margin-bottom: 9%;
-  color: $color-primary;
-  @extend %typo;
-  font-size: 36px;
-  
-  align-self: center;
-}
 
-&__link {
- 
+  &__code {
+    margin: 0;
+    flex-direction: column;
+    margin-bottom: 5%;
+    align-self: center;
+  }
+  &__com {
+    margin-bottom: 7%;
     color: $color-primary;
-  @extend %typo;
-  font-size: 36px;
-  
-  align-self: center;
-}
-}
+    @extend %typo;
+    font-size: 36px;
+    align-self: center;
+  }
 
-
+  &__link {
+    color: $color-primary;
+    @extend %typo;
+    font-size: 18px;
+    align-self: center;
+  }
+}

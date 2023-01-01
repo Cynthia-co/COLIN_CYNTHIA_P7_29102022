@@ -16,18 +16,18 @@
   position: relative;
   border-radius: 25px;
   margin-bottom: 10px;
-  left: 6%;
+  left: 5%;
 }
 .banner__img {
-  filter: brightness(60%);
-  height: 194px;
+  filter: brightness(70%);
+  height: 196px;
   z-index: 0;
   border-radius: 25px;
 }
 .banner__title {
   position: absolute;
-  left: 20%;
-  top: 32%;
+  left: 25%;
+  top: 22%;
   z-index: 2;
   font-size: 48px;
   color: white;
@@ -120,16 +120,19 @@
   padding-top: 1%;
 }
 .collapse__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 2%;
   margin-top: 0;
   padding-top: 2%;
   padding-bottom: 2%;
-  text-align: left;
   list-style: none;
   color: #FF6060;
   background: #F6F6F6;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  line-height: 169.6%;
 }
 .collapse__arrow {
   padding-right: 2%;
@@ -200,6 +203,7 @@
   flex-direction: row;
   margin-left: 1%;
   margin-top: 1%;
+  height: 249px;
 }
 
 .error__link, .error__com, .error, .nav, .thumb__title, .tag__content, .logement-header, .banner__title, .carroussel-number, .collapse__header, .collapse__content, .host__name {
@@ -410,14 +414,14 @@ html, body {
   align-self: center;
 }
 .error__com {
-  margin-bottom: 9%;
+  margin-bottom: 7%;
   color: #FF6060;
   font-size: 36px;
   align-self: center;
 }
 .error__link {
   color: #FF6060;
-  font-size: 36px;
+  font-size: 18px;
   align-self: center;
 }
 
