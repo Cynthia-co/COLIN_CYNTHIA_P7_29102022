@@ -27,8 +27,8 @@ const LocationElement = () => {
           <p className="title__name">{logement.location}</p>
           {/* on affiche le nombre de tag et son contenu en mappant les élèments */}
           <div className="tag-container">
-            {logement.tags.map((tag) => {
-              return <Tag tag={tag} />;
+            {logement.tags.map((tag, index) => {
+              return <Tag tag={tag} key={index}/>;
             })}
           </div>
         </div>
@@ -39,11 +39,11 @@ const LocationElement = () => {
 
           {/* on récupère la note et on affiche ce même nombre en étoile rouge sur un total de 5 étoiles, les autres restent grises */}
           <div>
-            {stars.map((star) =>
+            {stars.map((star, index) =>
               logement.rating >= star ? (
-                <img src={redStar} alt="redstar" />
+                <img src={redStar} alt="redstar" key={index} />
               ) : (
-                <img src={greyStar} alt="greystar" />
+                <img src={greyStar} alt="greystar" key={index} />
               )
             )}
           </div>

@@ -7,10 +7,10 @@ const Aboutbody = () => {
     return (
       //on affiche tous les élèments dans des collapses
         <div>
-             {aboutText.map((about) => {
+             {aboutText.map((about, index) => {
           return (
-            <div className="about">
-              <Collapse title={about.title} content={about.content} className="about__collapse"/>
+            <div className="about" key={index}>
+              <Collapse title={about.title} content={about.content} className="about__collapse" />
             </div>
           );
         })}

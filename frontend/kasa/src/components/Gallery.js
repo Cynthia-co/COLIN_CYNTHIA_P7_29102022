@@ -13,7 +13,7 @@ const Gallery = () => {
         {logements.map((logement) => {
          
           return (
-            <Link to={`./logements/${logement.id}`} className='thumb-card' >
+            <Link to={`./logements/${logement.id}`} key={logement.id} className='thumb-card' >
             <Thumb
               key={logement.id}
               image={logement.cover}

@@ -4,9 +4,7 @@ import ErrorBody from '../components/ErrorBody';
 const Error = () => {
     return (
         <div>
-            
            <ErrorBody/> 
-          
         </div>
     );
 };
