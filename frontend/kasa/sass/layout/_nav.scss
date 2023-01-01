@@ -1,6 +1,6 @@
 @import "../utils/variables";
 @import '../utils/extensions';
-
+@import "../utils/mixins";
 .nav {
   position: absolute;
   @extend %typo;
@@ -9,6 +9,11 @@
   bottom: 25%;
   width: 309px;
   height: 34px;
+  @include mobile{
+    text-transform : uppercase;
+    left:46%
+  }
+  
   &__item{
   color: $color-primary;
   padding: 2%;
@@ -16,6 +21,11 @@
   text-decoration: none;
   :hover {
     text-decoration: underline;
+  }
+}
+&__item2{
+  @include mobile{
+    margin-left: 2%;
   }
 }
 }

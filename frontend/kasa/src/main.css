@@ -24,6 +24,19 @@
   z-index: 0;
   border-radius: 25px;
 }
+@media screen and (max-width: 640px) {
+  .banner__img {
+    border-radius: 10px;
+    height: 111px;
+    width: 364px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner__img {
+    width: 675px;
+    height: 141px;
+  }
+}
 .banner__title {
   position: absolute;
   left: 25%;
@@ -31,6 +44,17 @@
   z-index: 2;
   font-size: 48px;
   color: white;
+}
+@media screen and (max-width: 640px) {
+  .banner__title {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner__title {
+    left: 19px;
+    font-size: 32px;
+  }
 }
 
 .error__link, .error__com, .error, .nav, .thumb__title, .tag__content, .logement-header, .host__name, .collapse__content, .collapse__header, .carroussel-number, .banner__title {
@@ -47,6 +71,11 @@
   width: 1240px;
   height: 415px;
 }
+@media screen and (max-width: 640px) {
+  .carroussel {
+    width: auto;
+  }
+}
 
 .carroussel-img {
   display: flex;
@@ -55,6 +84,11 @@
   height: 380px;
   object-fit: cover;
   border-radius: 25px;
+}
+@media screen and (max-width: 640px) {
+  .carroussel-img {
+    border-radius: 10px;
+  }
 }
 
 .carroussel-forward {
@@ -65,6 +99,12 @@
   cursor: pointer;
   user-select: none;
 }
+@media screen and (max-width: 640px) {
+  .carroussel-forward {
+    top: 32%;
+    width: 6%;
+  }
+}
 
 .carroussel-backward {
   position: absolute;
@@ -73,6 +113,12 @@
   margin-left: 1%;
   cursor: pointer;
   user-select: none;
+}
+@media screen and (max-width: 640px) {
+  .carroussel-backward {
+    top: 32%;
+    width: 6%;
+  }
 }
 
 .carroussel-number {
@@ -104,6 +150,11 @@
   width: 70%;
   margin: 5px;
   height: auto;
+}
+@media screen and (max-width: 640px) {
+  .collapse {
+    width: 98%;
+  }
 }
 .collapse__header {
   display: flex;
@@ -152,9 +203,24 @@
   margin-top: 0%;
   padding: 20px;
 }
+@media screen and (max-width: 640px) {
+  .gallery {
+    padding: 6px;
+  }
+}
 .gallery__thumbs {
   display: flex;
   flex-flow: row wrap;
+}
+@media screen and (max-width: 640px) {
+  .gallery__thumbs {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .gallery__thumbs {
+    flex-flow: row wrap;
+  }
 }
 
 .error__link, .error__com, .error, .nav, .thumb__title, .tag__content, .logement-header, .host__name, .banner__title, .carroussel-number, .collapse__header, .collapse__content {
@@ -168,6 +234,11 @@
   display: flex;
   flex-direction: row-reverse;
   right: 0;
+}
+@media screen and (max-width: 640px) {
+  .host {
+    align-items: center;
+  }
 }
 .host__name {
   flex-flow: column;
@@ -205,6 +276,11 @@
   margin-top: 1%;
   height: 249px;
 }
+@media screen and (max-width: 640px) {
+  .logement-collapse {
+    flex-direction: column;
+  }
+}
 
 .error__link, .error__com, .error, .nav, .thumb__title, .tag__content, .logement-header, .banner__title, .carroussel-number, .collapse__header, .collapse__content, .host__name {
   font-family: "Montserrat";
@@ -221,15 +297,28 @@
   width: 100%;
   color: #FF6060;
 }
+@media screen and (max-width: 640px) {
+  .logement-header {
+    flex-direction: column;
+  }
+}
 .logement-header__left {
   left: 0;
   padding-left: 2%;
   flex-direction: column;
 }
 .logement-header__right {
+  display: flex;
   right: 0;
   padding-right: 2%;
   flex-direction: column;
+}
+@media screen and (max-width: 640px) {
+  .logement-header__right {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .title {
@@ -291,6 +380,12 @@
   margin: 18px;
   border-radius: 10px;
 }
+@media screen and (max-width: 768px) {
+  .thumb-card {
+    width: 284px;
+    margin: 13px;
+  }
+}
 
 .thumb {
   border-radius: 10px;
@@ -302,6 +397,11 @@
   margin-left: 4px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+@media screen and (max-width: 640px) {
+  .thumb__title {
+    font-size: 19px;
+  }
 }
 .thumb__img {
   width: 100%;
@@ -327,6 +427,11 @@
   left: 3%;
   top: 2%;
 }
+@media screen and (max-width: 640px) {
+  .header__img {
+    width: 40%;
+  }
+}
 
 .error__link, .error__com, .error, .nav, .banner__title, .carroussel-number, .collapse__header, .collapse__content, .host__name, .logement-header, .tag__content, .thumb__title {
   font-family: "Montserrat";
@@ -343,6 +448,12 @@
   width: 309px;
   height: 34px;
 }
+@media screen and (max-width: 640px) {
+  .nav {
+    text-transform: uppercase;
+    left: 46%;
+  }
+}
 .nav__item {
   color: #FF6060;
   padding: 2%;
@@ -351,6 +462,11 @@
 }
 .nav__item :hover {
   text-decoration: underline;
+}
+@media screen and (max-width: 640px) {
+  .nav__item2 {
+    margin-left: 2%;
+  }
 }
 
 .active {
@@ -407,11 +523,21 @@ html, body {
   margin: 2%;
   font-size: 288px;
 }
+@media screen and (max-width: 640px) {
+  .error {
+    font-size: 216px;
+  }
+}
 .error__code {
   margin: 0;
   flex-direction: column;
   margin-bottom: 5%;
-  align-self: center;
+  text-align: center;
+}
+@media screen and (max-width: 640px) {
+  .error__code {
+    font-size: 129px;
+  }
 }
 .error__com {
   margin-bottom: 7%;
@@ -424,6 +550,11 @@ html, body {
   font-size: 18px;
   align-self: center;
 }
+@media screen and (max-width: 640px) {
+  .error__link {
+    padding-top: 15%;
+  }
+}
 
 .about {
   display: flex;
@@ -431,17 +562,23 @@ html, body {
   align-items: center;
 }
 .about__collapse {
-  width: 70%;
+  width: 73%;
   margin-left: 20%;
   padding-top: 0%;
   padding-bottom: 0%;
 }
+@media screen and (max-width: 640px) {
+  .about__collapse {
+    width: 94%;
+    padding-left: 3%;
+  }
+}
 
-.about-picture {
-  width: 84%;
-  padding: 2%;
-  border-radius: 55px;
-  left: 2%;
+@media screen and (max-width: 640px) {
+  .about-picture {
+    width: 381px;
+    height: 245px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

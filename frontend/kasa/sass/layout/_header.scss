@@ -1,5 +1,6 @@
 @import '../utils/variables';
 @import '../utils/extensions';
+@import "../utils/mixins";
 
 .header {
   position: relative;
@@ -8,5 +9,9 @@
   height: 20%;
   left: 3%;
   top: 2%;
-  
+  &__img{
+  @include mobile{
+    width: 40%;
+  }
+}
 }

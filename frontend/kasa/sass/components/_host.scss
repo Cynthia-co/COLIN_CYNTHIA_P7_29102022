@@ -1,11 +1,15 @@
 
 @import '../utils/variables';
 @import '../utils/extensions';
-
+@import "../utils/mixins";
 .host {
   display: flex;
   flex-direction: row-reverse;
   right: 0;
+  @include mobile{
+    align-items: center;
+  }
+
   &__name {
     flex-flow: column ;
     color: $color-primary;

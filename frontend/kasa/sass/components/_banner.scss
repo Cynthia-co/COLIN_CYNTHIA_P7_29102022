@@ -1,14 +1,27 @@
 @import "../utils/extensions";
+@import "../utils/mixins";
 .banner {
   position: relative;
   border-radius: 25px;
   margin-bottom: 10px;
   left: 5%;
+  @include mobile{
+
+  }
   &__img {
     filter: brightness(70%);
     height: 196px;
     z-index: 0;
     border-radius: 25px;
+    @include mobile{
+      border-radius: 10px;
+      height: 111px;
+      width: 364px;
+    }
+    @include tablet{
+      width: 675px;
+      height: 141px;
+    }
   }
   &__title {
     position: absolute;
@@ -18,5 +31,12 @@
     @extend %typo;
     font-size: 48px;
     color: white;
+    @include mobile{
+      font-size:24px;
+    }
+    @include tablet{
+      left: 19px;
+      font-size: 32px;
+    }
   }
 }

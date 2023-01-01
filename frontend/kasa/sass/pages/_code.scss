@@ -1,5 +1,6 @@
 @import "../utils/variables";
 @import "../utils/extensions";
+@import "../utils/mixins";
 
 .error {
   display: flex;
@@ -9,12 +10,18 @@
   margin: 2%;
   @extend %typo;
   font-size: 288px;
+  @include mobile{
+    font-size: 216px;
+  }
 
   &__code {
     margin: 0;
     flex-direction: column;
     margin-bottom: 5%;
-    align-self: center;
+    text-align: center;
+    @include mobile{
+      font-size: 129px;
+    }
   }
   &__com {
     margin-bottom: 7%;
@@ -29,5 +36,8 @@
     @extend %typo;
     font-size: 18px;
     align-self: center;
+    @include mobile{
+      padding-top: 15%;
+    }
   }
 }

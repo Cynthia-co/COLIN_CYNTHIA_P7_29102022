@@ -1,5 +1,6 @@
 @import '../utils/variables';
 @import '../utils/extensions';
+@import "../utils/mixins";
 
 .logement-page{
   position: relative;
@@ -14,4 +15,7 @@
   margin-left: 1%;
   margin-top: 1%;
   height: 249px;
+  @include mobile{
+    flex-direction: column;
+  }
 }

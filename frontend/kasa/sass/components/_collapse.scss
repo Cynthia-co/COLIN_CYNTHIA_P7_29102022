@@ -1,5 +1,6 @@
 @import '../utils/variables';
 @import '../utils/extensions';
+@import "../utils/mixins";
 
 .collapse {
     position: relative;
@@ -8,6 +9,9 @@
     width: 70%;
     margin: 5px;
     height: auto;
+    @include mobile{
+      width:98%
+    }
         &__header{
         display: flex;
         flex-direction: row;
