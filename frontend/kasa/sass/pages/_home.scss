@@ -1,7 +1,18 @@
 @import '../utils/variables';
+@import '../utils/mixins';
 
 html, body{
     overflow-x: hidden;
+    margin-right: 30px;
+    margin-left: 30px;
+    @include x-large{
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+    @include x-large{
+        margin-left: 14%;
+        margin-right: 14%;
+    }
 }
 .home{
     display: flex;

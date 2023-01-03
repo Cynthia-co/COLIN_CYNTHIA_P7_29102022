@@ -6,7 +6,7 @@ import logo from '../img/logo.svg';
 const Header = () => {
     return (
         <div className="header">
-            <img src={logo} alt='kasa'/>
+            <img className="header__image" src={logo} alt='kasa'/>
             <Nav/>
         </div>
     );

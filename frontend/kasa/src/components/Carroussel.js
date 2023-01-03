@@ -35,13 +35,13 @@ const Carroussel = ({ slides }) => {
         {current + 1}/{slides.length}
       </div>
       { slides.length > 1 &&
-      <div>
-      <img
-        src={backward}
-        className="carroussel-backward"
-        onClick={prevSlide}
-        alt="backward"
-      />
+      <div className="carroussel-arrow">
+       <img
+          src={backward}
+          className="carroussel-backward"
+          onClick={prevSlide}
+          alt="backward"
+        />
       <img
         src={forward}
         className="carroussel-forward"

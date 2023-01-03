@@ -9,8 +9,11 @@
   height: 20%;
   left: 3%;
   top: 2%;
-  &__img{
+  &__image{
   @include mobile{
+    width: 40%;
+  }
+  @include tablet{
     width: 40%;
   }
 }

@@ -5,38 +5,50 @@
   border-radius: 25px;
   margin-bottom: 10px;
   left: 5%;
-  @include mobile{
-
-  }
+  width: 100%;
+  
   &__img {
     filter: brightness(70%);
-    height: 196px;
+    height: 217px;
     z-index: 0;
     border-radius: 25px;
+    width: 89%;
+    height: 100%;
     @include mobile{
       border-radius: 10px;
-      height: 111px;
-      width: 364px;
     }
-    @include tablet{
-      width: 675px;
-      height: 141px;
-    }
+  
   }
   &__title {
     position: absolute;
-    left: 25%;
-    top: 22%;
+    margin-left: 23%;
+    width: 70%;
     z-index: 2;
     @extend %typo;
     font-size: 48px;
     color: white;
     @include mobile{
-      font-size:24px;
+      font-size:18px;
+      width: 27%;
     }
     @include tablet{
       left: 19px;
       font-size: 32px;
     }
+    @include large{
+      font-size: 45px;
+    }
+    @include x-large{
+      font-size: 85px;
+    }
   }
+}
+
+.home-banner{
+  display: flex;
+  align-items: center;
+  @include mobile{
+    height: 205px;
+  }
+  
 }
