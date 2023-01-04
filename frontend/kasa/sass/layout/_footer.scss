@@ -8,6 +8,9 @@
   padding: 3%;
   height: 70px;
   flex-direction: column;
+  @include mobile{
+    margin-top: 30%;
+  }
 
   &__img {
     position: relative;

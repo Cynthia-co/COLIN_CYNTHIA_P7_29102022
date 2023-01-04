@@ -6,11 +6,9 @@
   display: flex;
   justify-content: space-around;
   @extend %typo;
-  left: 70%;
-  top: 25%;
+  left: 65%;
   bottom: 25%;
   width: 309px;
-  height: 34px;
    @include x-large{
     left: 79%;
   }
@@ -21,11 +19,13 @@
     width: 40%;
     text-transform : uppercase;
     left: 54%;
+    justify-content: flex-start;
   }
   @include mobile{
     width: 40%;
     text-transform : uppercase;
     left: 64%;
+    justify-content: flex-start;
   }
   
   &__item{

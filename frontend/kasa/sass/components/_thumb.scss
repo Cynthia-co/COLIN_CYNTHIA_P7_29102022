@@ -2,15 +2,13 @@
 @import "../utils/mixins";
 
 .thumb-card {
-  width: 335px;
-  height: 335px;
+  width: 320px;
+  height: 320px;
   text-decoration: none;
   color: $color-secondary;
   background: linear-gradient(180deg, $color-primary 40%, rgb(49, 48, 48) 200%);
-
   margin: 18px;
   border-radius: 10px;
- 
   @include x-large{
     width: 330px;
     margin: 23px;
@@ -20,7 +18,7 @@
   }
   
   @include medium-screen{
-    width:300px;
+    width:288px;
   }
    @include tablet{
     width: 100%;
@@ -39,11 +37,12 @@
     @extend %typo;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    @include mobile{
-      font-size: 19px;
-    }
+    
     @include tablet{
       font-size: 21px;
+    }
+    @include mobile{
+      font-size: 19px;
     }
   }
   &__img {
