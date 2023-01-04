@@ -22,6 +22,7 @@ const Carroussel = ({ slides }) => {
       {slides.map((slide, index) => {
         return (
           <div
+          style={{width:"100%"}}
             className={index === current ? slide.current : slide}
             key={index}
           >

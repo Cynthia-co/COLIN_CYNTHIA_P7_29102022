@@ -24,9 +24,10 @@
     right: 0;
     padding-right: 2%;
     flex-direction: column;
+    justify-content: space-between;
     @include mobile{
       flex-direction: row-reverse;
-      justify-content: center;
+      
       align-items: center;
     }
   }
@@ -36,5 +37,6 @@
   font-size: 36px;
   margin-bottom: 2%;
   margin-top: 4%;
+  line-height: normal;
 }
 
