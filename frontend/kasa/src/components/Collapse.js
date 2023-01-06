@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import open from "../img/open.svg";
+import open from "../img/open.webp";
 import close from "../img/close.svg";
 
 const Collapse = ({ title, content }) => {

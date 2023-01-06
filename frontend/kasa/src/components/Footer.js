@@ -1,5 +1,5 @@
 import React from "react";
-import logofooter from "../img/logofooter.svg";
+import logofooter from "../img/logofooter.webp";
 
 const Footer = () => {
   return (

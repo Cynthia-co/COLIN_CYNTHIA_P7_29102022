@@ -4,8 +4,8 @@ import Carroussel from "./Carroussel";
 import Collapse from "./Collapse";
 import Host from "./Host";
 import Tag from "./Tag";
-import greyStar from "../img/star.svg";
-import redStar from "../img/redstar.svg";
+import greyStar from "../img/star.webp";
+import redStar from "../img/redstar.webp";
 
 const LocationElement = () => {
   //on récupère les données

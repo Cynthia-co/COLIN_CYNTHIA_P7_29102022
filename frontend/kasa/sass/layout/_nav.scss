@@ -13,18 +13,18 @@
     left: 79%;
   }
   @include large{
-    left: 69%;
+    left: 72%;
   }
   @include tablet{
     width: 40%;
     text-transform : uppercase;
-    left: 54%;
-    justify-content: flex-start;
+    left: 48%;
+    justify-content: flex-end;
   }
   @include mobile{
     width: 40%;
     text-transform : uppercase;
-    left: 64%;
+    left: 0%;
     justify-content: flex-start;
   }
   
