@@ -119,8 +119,8 @@
 }
 @media screen and (max-width: 850px) {
   .carroussel-arrow {
-    width: 90%;
-    right: 1%;
+    width: 95%;
+    right: 4%;
   }
 }
 
@@ -236,7 +236,7 @@
   padding-top: 1%;
   text-align: right;
   z-index: 100;
-  width: 14px;
+  width: 30px;
   height: 23px;
 }
 
@@ -361,6 +361,7 @@
   .logement-header__right {
     flex-direction: row-reverse;
     align-items: center;
+    justify-content: space-between;
   }
 }
 
