@@ -16,6 +16,7 @@
    &__thumbs {
       display: flex;
       flex-flow: row wrap;
+      justify-content: center;
       @include mobile{
          flex-direction: column;
       }

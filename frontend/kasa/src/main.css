@@ -1,11 +1,11 @@
-.error__link, .error__com, .error, .nav, .thumb__title, .tag__content, .logement-header, .host__name, .collapse__content, .collapse__header, .carroussel-number, .banner__title {
+.error__link, .error__com, .error, .footer__txt, .nav, .thumb__title, .tag__content, .logement-header, .host__name, .collapse__content, .collapse__header, .carroussel-number, .banner__title {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   line-height: 142.6%;
 }
 
-.error__link, .error__com, .error, .nav, .thumb__title, .tag__content, .logement-header, .host__name, .collapse__content, .collapse__header, .carroussel-number, .banner__title {
+.error__link, .error__com, .error, .footer__txt, .nav, .thumb__title, .tag__content, .logement-header, .host__name, .collapse__content, .collapse__header, .carroussel-number, .banner__title {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -87,7 +87,7 @@
   }
 }
 
-.error__link, .error__com, .error, .nav, .thumb__title, .tag__content, .logement-header, .host__name, .collapse__content, .collapse__header, .carroussel-number, .banner__title {
+.error__link, .error__com, .error, .footer__txt, .nav, .thumb__title, .tag__content, .logement-header, .host__name, .collapse__content, .collapse__header, .carroussel-number, .banner__title {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -181,7 +181,7 @@
   transform: scale(1.08);
 }
 
-.error__link, .error__com, .error, .nav, .thumb__title, .tag__content, .logement-header, .host__name, .collapse__content, .collapse__header, .banner__title, .carroussel-number {
+.error__link, .error__com, .error, .footer__txt, .nav, .thumb__title, .tag__content, .logement-header, .host__name, .collapse__content, .collapse__header, .banner__title, .carroussel-number {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -257,6 +257,7 @@
 .gallery__thumbs {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 }
 @media screen and (max-width: 850px) {
   .gallery__thumbs {
@@ -269,7 +270,7 @@
   }
 }
 
-.error__link, .error__com, .error, .nav, .thumb__title, .tag__content, .logement-header, .host__name, .banner__title, .carroussel-number, .collapse__header, .collapse__content {
+.error__link, .error__com, .error, .footer__txt, .nav, .thumb__title, .tag__content, .logement-header, .host__name, .banner__title, .carroussel-number, .collapse__header, .collapse__content {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -297,7 +298,7 @@
   background: #C4C4C4;
 }
 
-.error__link, .error__com, .error, .nav, .thumb__title, .tag__content, .logement-header, .banner__title, .carroussel-number, .collapse__header, .collapse__content, .host__name {
+.error__link, .error__com, .error, .footer__txt, .nav, .thumb__title, .tag__content, .logement-header, .banner__title, .carroussel-number, .collapse__header, .collapse__content, .host__name {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -324,7 +325,7 @@
   }
 }
 
-.error__link, .error__com, .error, .nav, .thumb__title, .tag__content, .logement-header, .banner__title, .carroussel-number, .collapse__header, .collapse__content, .host__name {
+.error__link, .error__com, .error, .footer__txt, .nav, .thumb__title, .tag__content, .logement-header, .banner__title, .carroussel-number, .collapse__header, .collapse__content, .host__name {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -354,7 +355,7 @@
   right: 0;
   padding-right: 2%;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 @media screen and (max-width: 850px) {
   .logement-header__right {
@@ -370,22 +371,12 @@
   line-height: normal;
 }
 
-.rate {
-  position: absolute;
-  width: 196px;
-  height: 36px;
-  left: 1144px;
-  top: 652px;
-}
-.rate__star {
-  position: absolute;
-  left: 8.33%;
-  right: 8.33%;
-  top: 8.33%;
-  bottom: 8.33%;
+.stars {
+  width: 30px;
+  height: 30px;
 }
 
-.error__link, .error__com, .error, .nav, .thumb__title, .tag__content, .banner__title, .carroussel-number, .collapse__header, .collapse__content, .host__name, .logement-header {
+.error__link, .error__com, .error, .footer__txt, .nav, .thumb__title, .tag__content, .banner__title, .carroussel-number, .collapse__header, .collapse__content, .host__name, .logement-header {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -436,7 +427,7 @@
 }
 @media screen and (max-width: 1368px) {
   .thumb-card {
-    width: 344px;
+    width: 307px;
   }
 }
 @media screen and (max-width: 1023px) {
@@ -478,7 +469,7 @@
   border-top-right-radius: 10px;
 }
 
-.error__link, .error__com, .error, .nav, .banner__title, .carroussel-number, .collapse__header, .collapse__content, .host__name, .logement-header, .tag__content, .thumb__title {
+.error__link, .error__com, .error, .footer__txt, .nav, .banner__title, .carroussel-number, .collapse__header, .collapse__content, .host__name, .logement-header, .tag__content, .thumb__title {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -504,7 +495,7 @@
   }
 }
 
-.error__link, .error__com, .error, .nav, .banner__title, .carroussel-number, .collapse__header, .collapse__content, .host__name, .logement-header, .tag__content, .thumb__title {
+.error__link, .error__com, .error, .footer__txt, .nav, .banner__title, .carroussel-number, .collapse__header, .collapse__content, .host__name, .logement-header, .tag__content, .thumb__title {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
@@ -565,6 +556,13 @@
   padding: 1%;
 }
 
+.error__link, .error__com, .error, .footer__txt, .banner__title, .carroussel-number, .collapse__header, .collapse__content, .host__name, .logement-header, .tag__content, .thumb__title, .nav {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.6%;
+}
+
 .footer {
   position: relative;
   display: flex;
@@ -581,7 +579,8 @@
 }
 .footer__img {
   position: relative;
-  width: 50%;
+  width: 145px;
+  height: 47px;
   display: flex;
   justify-content: center;
   align-self: center;
@@ -620,7 +619,7 @@ html, body {
   color: #FF6060;
 }
 
-.error__link, .error__com, .error, .banner__title, .carroussel-number, .collapse__header, .collapse__content, .host__name, .logement-header, .tag__content, .thumb__title, .nav {
+.error__link, .error__com, .error, .banner__title, .carroussel-number, .collapse__header, .collapse__content, .host__name, .logement-header, .tag__content, .thumb__title, .nav, .footer__txt {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;

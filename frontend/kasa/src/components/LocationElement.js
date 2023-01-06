@@ -41,9 +41,9 @@ const LocationElement = () => {
           <div>
             {stars.map((star, index) =>
               logement.rating >= star ? (
-                <img src={redStar} alt="redstar" key={index} />
+                <img src={redStar} alt="redstar" className='stars' key={index} />
               ) : (
-                <img src={greyStar} alt="greystar" key={index} />
+                <img src={greyStar} alt="greystar" className='stars' key={index} />
               )
             )}
           </div>

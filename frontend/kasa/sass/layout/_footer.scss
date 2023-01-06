@@ -1,4 +1,6 @@
 @import '../utils/variables';
+@import '../utils/extensions';
+
 
 .footer {
   position: relative;
@@ -14,13 +16,15 @@
 
   &__img {
     position: relative;
-    width: 50%;
+    width: 145px;
+    height: 47px;
     display: flex;
     justify-content: center;
    align-self: center;
   }
 
   &__txt {
+    @extend %typo;
     position: relative;
     align-self: center;
     color: white;

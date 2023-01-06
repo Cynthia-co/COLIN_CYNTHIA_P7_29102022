@@ -24,10 +24,9 @@
     right: 0;
     padding-right: 2%;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-end;
     @include mobile{
       flex-direction: row-reverse;
-      
       align-items: center;
     }
   }
