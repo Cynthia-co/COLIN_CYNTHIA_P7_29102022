@@ -24,8 +24,7 @@
   @include mobile{
     width: 40%;
     text-transform : uppercase;
-    left: 0%;
-    justify-content: flex-start;
+    justify-content: flex-end;
   }
   
   &__item{

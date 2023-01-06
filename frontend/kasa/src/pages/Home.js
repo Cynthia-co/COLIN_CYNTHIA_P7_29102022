@@ -1,7 +1,7 @@
 import React from "react";
 import Banner from "../components/Banner";
 import Gallery from "../components/Gallery";
-import homebanner from "../img/homebanner.svg";
+import homebanner from "../img/homebanner.webp";
 
 const Home = () => {
   return (

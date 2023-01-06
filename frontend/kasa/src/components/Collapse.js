@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import open from "../img/open.webp";
-import close from "../img/close.svg";
+import close from "../img/close.webp";
 
 const Collapse = ({ title, content }) => {
   //on déclare les 2 états ouverts ou non de la collapse

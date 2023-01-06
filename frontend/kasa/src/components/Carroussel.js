@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import backward from "../img/backward.svg";
-import forward from "../img/forward.svg";
+import backward from "../img/backward.webp";
+import forward from "../img/forward.webp";
 
 const Carroussel = ({ slides }) => {
   const [current, setCurrent] = useState(0);
